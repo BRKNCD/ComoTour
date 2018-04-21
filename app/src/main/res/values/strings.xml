@@ -1,0 +1,136 @@
+<resources>
+    <string name="app_name">Como Tour</string>
+
+    <!-- CITY FRAGMENT: Names and descriptions -->
+
+    <string name="duomo_name">Duomo di Como</string>
+    <string name="duomo_description">Via Maestri Comacini, 6, 22100 Como CO. É il principale edificio
+        di culto della città di Como, chiesa madre della diocesi omonima.
+        Situata vicino al lago, rappresenta uno dei più ragguardevoli monumenti dell\' Italia settentrionale.</string>
+
+
+    <string name="lungolago_name">Lungolago di Como</string>
+    <string name="lungolago_description">Incantevole passeggiata lungo la riva del
+    Lago di Como, lunga oltre 3 Km. Da Villa Olmo, si possono ammirare gli splendidi paesaggi
+    naturali del lago e quelli architettonici che la storia ha portato fino ai giorni nostri.</string>
+
+    <string name="electric_name">The Life Electric</string>
+    <string name="electric_description">Diga foranea Piero Caldirola, 22100 Como CO. The Life Electric
+        è una scultura disegnata da Daniel Libeskind,
+        realizzata nel 2015 e collocata a Como, sulla diga foranea.</string>
+
+    <string name="monumento_name">Monumento ai Caduti</string>
+    <string name="monumento_description">Viale Giancarlo Puecher, 22100 Como CO. Il Monumento ai caduti di Como è un\' imponente torre,
+        alta 30 metri, aperta da grandi finestroni e completamente rivestita di pietra di Aurisina e Reppen.
+        All\'interno, sopra al basamento, vi è un monolito in granito d\'Alzo dal peso di 40 tonnellate rivestito
+        di diorite d\'Anzola, con incisi i nomi dei 650 caduti comaschi della prima guerra mondiale.</string>
+
+    <string name="palazzo_name">Palazzo Terragni (ex Casa del Fascio)</string>
+    <string name="palazzo_description">Piazza del Popolo, 4, 22100 Como CO. L\'ex Casa del Fascio, è un edificio situato a Como, in piazza
+        del Popolo 4 (ex piazza Impero), ed è uno dei più interessanti edifici del razionalismo italiano.</string>
+
+    <string name="piazza_camerlata_name">Fontana di Camerlata</string>
+    <string name="piazza_camerlata_description">Piazzale Camerlata, 22100 Como CO, La fontana di Camerlata
+        è una fontana monumentale situata a Como, nel Piazzale Camerlata da cui prende il nome,
+        opera di Cesare Cattaneo e Mario Radice.</string>
+
+    <string name="porta_torre_name">Porta Torre</string>
+    <string name="porta_torre_description">Via Cesare Cantù, 22100 Como CO. Porta Torre (chiamata anche Torre di Porta Vittoria)
+        è un\'imponente fortezza, alta 40 metri, edificata nel 1192, su iniziativa del podestà Uberto
+        de\' Olevano, per difendere l\'ingresso più importante della città di Como.</string>
+
+    <string name="tempio_voltiano_name">Tempio Voltiano</string>
+    <string name="tempio_voltiano_description">Viale Guglielmo Marconi, 1, 22100 Como CO. Il Tempio Voltiano è un museo scientifico
+        situato sul Lungo Lario Marconi. Il tempio Voltiano è il museo più visitato a Como.
+        L\'esposizione permanente è dedicata alla memoria di Alessandro Volta ed al riconoscimento
+        del suo lavoro scientifico. Al piano terra sono esposti antichi strumenti scientifici legati
+        alle sperimentazioni di fisica compiute da Alessandro Volta.</string>
+
+
+    <!-- LAKE FRAGMENT: Names and descriptions -->
+
+    <string name="bellagio_name">Bellagio</string>
+    <string name="bellagio_description">Bellagio (Bellas in dialetto comasco)
+        è un comune italiano di 3 736 abitanti della provincia di Como in Lombardia.
+        Il comune appartiene alla Comunità montana del Triangolo Lariano ed il suo territorio
+        rappresenta uno dei vertici ideali del Triangolo Lariano.
+        Rinomato luogo di villeggiatura, è famoso per la sua pittoresca posizione proprio sulla ramificazione
+        del Lago di Como nei suoi bracci meridionali, con le Alpi visibili oltre il lago a nord.</string>
+
+    <string name="varenna_name">Varenna</string>
+    <string name="varenna_description">Varenna (Varena in dialetto comasco-lecchese)
+        è un comune italiano di 783 abitanti della provincia di Lecco, in Lombardia.
+        Posta sulle rive del Lario, fronteggia Bellagio a cui è collegata tramite traghetto.</string>
+
+    <string name="isola_comacina_name">Isola Comacina</string>
+    <string name="isola_comacina_description">L\'isola Comacina è un lembo di terra
+        (lunghezza 600 m, larghezza 200 m, perimetro 2 km, superficie 7,5 ettari) circondato dal Lago di Como.</string>
+
+    <string name="villa_carlotta_name">Villa Carlotta</string>
+    <string name="villa_carlotta_description">Via Regina, 2, 22019 Tremezzina CO. Villa Carlotta è una villa sita nel comune di Tremezzina
+        in provincia di Como e posta sulle rive del Lago di Como. La villa è celebre sia per le raccolte
+        d\'arte conservate al suo interno, sia per il vasto giardino botanico che la circonda, parte
+        del circuito Grandi Giardini Italiani.</string>
+
+    <string name="villa_deste_name">Villa D\'Este</string>
+    <string name="villa_deste_description">Via Regina, 40, 22012 Cernobbio CO. Villa d\'Este, in origine Villa del Garovo,
+        è una residenza patrizia rinascimentale situata sulle rive del Lago di Como nel comune di Cernobbio.
+        Sin dal 1873, il complesso è stato destinato ad albergo di lusso.
+        Nel 2008 la rivista statunitense Travel + Leisure l\'ha nominata il 15º miglior hotel in Europa
+        e il 69º miglior hotel nel mondo; mentre nel giugno 2009, la rivista Forbes l\'ha nominata
+        il miglior hotel del mondo.</string>
+
+    <string name="villa_olmo_name">Villa Olmo</string>
+    <string name="villa_olmo_description">Via Simone Cantoni, 1, 22100 Como CO. Villa Olmo è un imponente villa neoclassica di Como,
+        opera dell\'architetto Simone Cantoni. Nel 1924 venne acquisita dal Comune di Como, che vi ha ospitato,
+        negli anni, l\'Esposizione Internazionale per il centenario della morte di Alessandro Volta,
+        numerosi congressi, spettacoli, mostre d\'arte. Nel 1970 ospitò una puntata di Giochi senza frontiere.
+        Dal 1982 è sede del Centro Volta, che vi organizza le sue manifestazioni internazionali.</string>
+
+    <string name="villa_geno_name">Villa Geno</string>
+    <string name="villa_geno_description">Costruita alla fine del 1700 dalla marchesa Menafoglio,
+        ma subito ceduta al marchese Cornaggia Medici. L\'accesso alla villa era scomodo e difficile;
+        per questo motivo la figlia del marchese fece costruire una strada, che ben presto divenne il passaggio pubblico dei Comaschi,
+        viale Geno. Passata in proprietà al comune di Como, la villa è stata trasformata in ristorante.
+        Davanti alla villa si trova una fontana il cui getto può raggiungere quasi quaranta metri d\'altezza.</string>
+
+    <!-- POINT OF INTEREST FRAGMENT: Names and descriptions -->
+
+    <string name="faro_voltiano_name">Faro Voltiano</string>
+    <string name="faro_voltiano_description">Via Giacomo Scalini, 22034 Brunate CO. Il Faro Voltiano è una torre ottagonale alta 29 metri eretta
+        nel 1927 sulla vetta del Monte Tre Croci (località San Maurizio) in occasione del centenario della
+        morte di Alessandro Volta. Nella volta centrale del faro fu collocato un busto del fisico comasco.
+        Il faro fu inaugurato l\'8 settembre 1927 con l\'intervento dell\'allora Ministro delle Comunicazioni, Costanzo Ciano.
+        Ha al suo interno una scala a chiocciola di 143 gradini che permette di raggiungere due balconate circolari:
+        la prima poco sopra il portone d\'ingresso, la seconda all\'esterno della lanterna; da questi punti
+        è possibile vedere panorami mozzafiato. Il faro, a partire dal tramonto e fino all\'alba,
+        emette alternativamente luce verde, bianca e rossa.</string>
+
+    <string name="chiesetta_sagnino_name">Chiesa di Quarcino</string>
+    <string name="chiesetta_sagnino_description">Via Fattori Giovanni, 20, 22100 Como CO. Dedicata ai Santi Giacomo e Filippo
+        (costruita tra il X e il XVIII sec., ristrutturata negli anni 1970);
+        Contiente reperti di antichi affreschi (interni alla chiesa ed esterni, sulla parete frontale dell\'ossario)
+        di un artista locale ignoto;</string>
+
+    <string name="castel_baradello_name">Castello Baradello</string>
+    <string name="castel_baradello_description">Via Castel Baradello, 22100 Como CO. Il Castel Baradello sorge sull\'omonimo colle (430 m s.l.m.)
+        che domina la città di Como, chiudendo sul lato sud-ovest la convalle. Dal colle si gode un panorama
+        che spazia dal lago alla città, dalle cime delle Alpi alla pianura Padana fino agli Appennini:
+        il suo massiccio torrione a base quadrata è ben visibile per chi giunge a Como.</string>
+
+    <!-- EVENTS FRAGMENT: Names and descriptions -->
+
+    <string name="citta_luce_name">Como Magic Light Festival</string>
+    <string name="citta_luce_description">Appuntamento annuale da non perdere tra i festival delle luci
+        in Italia è il Como Magic Light Festival, organizzato ogni anno nella splendida città che rientra nel programma
+        della Città dei Balocchi, il ricco calendario di eventi per le feste natalizie.</string>
+
+    <string name="teatro_sociale_name">Teatro Sociale</string>
+    <string name="teatro_sociale_description">Via Vincenzo Bellini, 3, 22100 Como CO. Il Teatro Sociale
+        di Como è il teatro d\'opera di Como. Ospitò Niccolò Paganini, Franz Liszt e Giuditta Pasta.</string>
+
+    <string name="fiera_name">Fiera di Pasqua</string>
+    <string name="fiera_description">Viale Varese, 22100 Como CO. Quasi 200 bancarelle sono attese ogni anno
+        per il tradizionale mercato di Pasqua, che apre il giovedì in viale Varese.</string>
+
+</resources>
