@@ -6,6 +6,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -26,9 +27,9 @@ public class CityFragment extends Fragment {
 
         // Create a list of place
         final ArrayList<Place> cityPlace = new ArrayList<Place>();
-        cityPlace.add(new Place(R.drawable.duomo, R.string.duomo_name, R.string.duomo_description));
-        cityPlace.add(new Place(R.drawable.lungolago, R.string.lungolago_name, R.string.lungolago_description));
-        cityPlace.add(new Place(R.drawable.life_electric, R.string.electric_name, R.string.electric_description));
+        cityPlace.add(new Place(R.drawable.duomo, R.string.duomo_name, R.string.duomo_description,45.811794,9.083928));
+        cityPlace.add(new Place(R.drawable.lungolago, R.string.lungolago_name, R.string.lungolago_description,45.8149643,9.0688734));
+        cityPlace.add(new Place(R.drawable.life_electric, R.string.electric_name, R.string.electric_description,45.8153751,9.0802579));
         cityPlace.add(new Place(R.drawable.monumento_ai_caduti, R.string.monumento_name, R.string.monumento_description));
         cityPlace.add(new Place(R.drawable.palazzo_terragni, R.string.palazzo_name, R.string.palazzo_description));
         cityPlace.add(new Place(R.drawable.piazza_camerlata, R.string.piazza_camerlata_name, R.string.piazza_camerlata_description));
@@ -48,7 +49,31 @@ public class CityFragment extends Fragment {
         // {@link ListView} will display list items for each {@link Word} in the list.
         listView.setAdapter(adapter);
 
+        listView.setOnItemClickListener(new ListView.OnItemClickListener() {
+
+            public void onItemClick(AdapterView adapterView, View view, int position, long id) {
+                Place currentPlace = cityPlace.get(position);
+                String currentName = getString(currentPlace.getName());
+                double currentLatitude = currentPlace.getLatitude();
+                double currentLongitude = currentPlace.getLongitude();
+
+                Bundle bundle = new Bundle();
+                bundle.putString("NAME",currentName);
+                bundle.putDouble("LATITUDE",currentLatitude);
+                bundle.putDouble("LONGITUDE",currentLongitude);
+
+                MapFragment mapFragment = new MapFragment();
+                mapFragment.setArguments(bundle);
+
+
+                getFragmentManager()
+                        .beginTransaction()
+                        .addToBackStack(null)
+                        .replace(R.id.content, mapFragment)
+                        .commit();
+            }
+        });
+
         return rootView;
     }
-
 }

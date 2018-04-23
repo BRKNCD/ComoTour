@@ -6,9 +6,12 @@ package com.example.android.comotour;
 
 public class Place {
 
-    int mName;
-    int mDescription;
-    int mDrawableResourceId;
+    private int mName;
+    private int mDescription;
+    private int mDrawableResourceId;
+
+    private double mLatitude;
+    private double mLongitude;
 
     public Place(int drawableResourceId, int name, int description) {
         /**
@@ -22,6 +25,22 @@ public class Place {
         mDescription = description;
     }
 
+    public Place(int drawableResourceId, int name, int description, double latitude, double longitude) {
+        /**
+         * This constructor is for every place
+         * @param drawableResourceId is the place's image
+         * @param name is the place's name
+         * @param description contains information such as address, date of building or somthing else
+         * @param latitude the place's latitude
+         * @param longitude the place's longitude
+         */
+        mDrawableResourceId = drawableResourceId;
+        mName = name;
+        mDescription = description;
+        mLatitude = latitude;
+        mLongitude = longitude;
+    }
+
     public int getDrawableResourceId() {
         return mDrawableResourceId;
     }
@@ -32,5 +51,13 @@ public class Place {
 
     public int getDescription() {
         return mDescription;
+    }
+
+    public double getLatitude() {
+        return mLatitude;
+    }
+
+    public double getLongitude() {
+        return mLongitude;
     }
 }
